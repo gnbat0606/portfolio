@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .menu-para {
+    @apply text-base
+    font-sans
+    font-light
+    leading-6
+    text-left
+    text-gray-600
+    text-wrap;
+  }
+}
+div {
+  font-size: 20px;
+}
+
+.image-shadow {
+  border: 20px solid #e5e7eb;
+  width: 250px;
+  height: 260px;
+}
