@@ -1,14 +1,9 @@
 import { Navigation } from "./Navigation";
 import React from "react";
 
-export const dropdown = () => {
+export const Dropdown = () => {
   return (
-    <div
-      className=" cursor-pointer"
-      onClick={() => {
-        setOpen(false);
-      }}
-    >
+    <div className=" cursor-pointer">
       <Navigation />
     </div>
   );

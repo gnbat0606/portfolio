@@ -1,14 +1,12 @@
-import { Navigation } from "./Navigation";
 import { HiOutlineBars3 } from "react-icons/hi2";
 
-export const Header = () => {
+export const Header = ({ setOpen }) => {
   return (
-    <div className=" flex justify-between text-2xl m-4">
-      {"<SS />"}
-      <span className="">
+    <div className="w-full flex justify-between text-2xl p-4 sticky top-0 bg-white z-50">
+      <div>{"<SS />"}</div>
+      <button onClick={() => setOpen((prev) => !prev)}>
         <HiOutlineBars3 className=" h-9 w-9" />
-      </span>
-      <Navigation />
+      </button>
     </div>
   );
 };

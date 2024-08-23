@@ -9,36 +9,68 @@ export const Experience = () => {
       <div className=" text-center text-gray-600 text-base">
         Here is a quick summary of my most recent experiences:
       </div>
-      <div className="bg-white rounded-lg p-8 flex flex-col gap-4 ">
-        <img className="w-[102px] h-7" src="logo-upwork.png" alt="" />
-        <div className="text-gray-700">Nov 2021 - Present</div>
-        <div className="text-gray-900">Sr. Frontend Developer</div>
-        <div className=" text-base text-gray-600">
-          <div>• Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-          <div>• Ut pretium arcu et massa semper, id fringilla leo semper.</div>
-          <div>• Sed quis justo ac magna.</div>
-          <div>• Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+      <div className="flex flex-col gap-6">
+        <div className="bg-white rounded-lg p-8 flex flex-col gap-4 md:flex-row">
+          <img className="w-[102px] h-7" src="logo-upwork.png" alt="" />
+          <div className="md:flex md:flex-row-reverse">
+            <div className="text-gray-700">Nov 2021 - Present</div>
+            <div>
+              <div className="text-gray-900">Sr. Frontend Developer</div>
+              <div className=" text-base text-gray-600">
+                <div>
+                  • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <div>
+                  • Ut pretium arcu et massa semper, id fringilla leo semper.
+                </div>
+                <div>• Sed quis justo ac magna.</div>
+                <div>
+                  • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="bg-white rounded-lg p-8 flex flex-col gap-4 ">
-        <img className="w-[102px] h-7" src="logo-upwork.png" alt="" />
-        <div className="text-gray-700">Nov 2021 - Present</div>
-        <div className="text-gray-900">Sr. Frontend Developer</div>
-        <div className=" text-base text-gray-600">
-          <div>• Sed quis justo ac magna.</div>
-          <div>• Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-          <div>• Sed quis justo ac magna.</div>
-          <div>• Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div className="bg-white rounded-lg p-8 flex flex-col gap-4 md:flex-row">
+          <img className="w-[102px] h-7" src="logo-upwork.png" alt="" />
+          <div className="md:flex md:flex-row-reverse">
+            <div className="text-gray-700">Nov 2021 - Present</div>
+            <div>
+              <div className="text-gray-900">Sr. Frontend Developer</div>
+              <div className=" text-base text-gray-600">
+                <div>
+                  • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <div>
+                  • Ut pretium arcu et massa semper, id fringilla leo semper.
+                </div>
+                <div>• Sed quis justo ac magna.</div>
+                <div>
+                  • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="bg-white rounded-lg p-8 flex flex-col gap-4 ">
-        <img className="w-[102px] h-7" src="logo-upwork.png" alt="" />
-        <div className="text-gray-700">Dec 2015 - May 2017</div>
-        <div className="text-gray-900">Full Stack Developer</div>
-        <div className=" text-base text-gray-600">
-          <div>
-            • Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit.
+        <div className="bg-white rounded-lg p-8 flex flex-col gap-4 md:flex-row">
+          <img className="w-[102px] h-7" src="logo-upwork.png" alt="" />
+          <div className="md:flex md:flex-row-reverse">
+            <div className="text-gray-700">Nov 2021 - Present</div>
+            <div>
+              <div className="text-gray-900">Sr. Frontend Developer</div>
+              <div className=" text-base text-gray-600">
+                <div>
+                  • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <div>
+                  • Ut pretium arcu et massa semper, id fringilla leo semper.
+                </div>
+                <div>• Sed quis justo ac magna.</div>
+                <div>
+                  • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

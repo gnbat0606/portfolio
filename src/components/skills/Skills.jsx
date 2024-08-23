@@ -1,11 +1,16 @@
 export const Skills = () => {
   return (
-    <div className=" py-16 px-4 flex flex-col gap-6 items-center ">
-      <div className=" text-sm bg-gray-200 py-1 px-5 text-gray-600 rounded-2xl">
-        Skills
+    <div className=" py-16 px-4 md:py-20 md:px-24 flex flex-col gap-6">
+      <div className="flex flex-col gap-6 items-center md:px-12 md:gap-12">
+        <div className=" text-sm bg-gray-200 py-1 px-5 text-gray-600 rounded-2xl">
+          Skills
+        </div>
+        <div>The skills, tools and technologies I am really good at:</div>
       </div>
-      <div>The skills, tools and technologies I am really good at:</div>
-      <div id="icons" className="flex flex-wrap gap-12 justify-between">
+      <div
+        id="icons"
+        className="flex flex-wrap gap-12 justify-between md:justify-start"
+      >
         <img src="javaScript.png" alt="" />
         <img src="typescript.png" alt="" />
         <img src="react.png" alt="" />
