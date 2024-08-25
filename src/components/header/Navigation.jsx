@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FiSun } from "react-icons/fi";
 
 export const Navigation = ({ open }) => {
   const variants = {
@@ -8,7 +9,13 @@ export const Navigation = ({ open }) => {
 
   return (
     <>
-      <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "12px",
+        }}
+      >
         <motion.div
           initial="closed"
           animate={open ? "open" : "closed"}
@@ -19,11 +26,24 @@ export const Navigation = ({ open }) => {
             right: 0,
             bottom: 0,
             width: "80%",
-            background: "red",
+            backgroundColor: "white",
             zIndex: 1000,
+            padding: "16px",
           }}
         >
-          <h1>Mobile Header</h1>
+          <div>
+            <div className="flex flex-col gap-4 p-4">
+              <div>About</div>
+              <div>Work</div>
+              <div>Testimonials</div>
+              <div>Contact</div>
+            </div>
+            <div className="flex justify-between items-center">
+              <div>Switch Theme</div>
+              <FiSun />
+            </div>
+            <div>Download CV</div>
+          </div>
         </motion.div>
       </div>
     </>

@@ -2,6 +2,18 @@ import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
 import { FiFigma } from "react-icons/fi";
+import { FiCopy } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
+import { TfiEmail } from "react-icons/tfi";
+const email = "ganbatgantulga247@gmail.com";
+const phone = "+976 95168240";
+
+const handleCopyEmail = async () => {
+  await navigator.clipboard.writeText(email);
+};
+const handleCopyPhone = async () => {
+  await navigator.clipboard.writeText(phone);
+};
 
 export const Contact = () => {
   return (
@@ -13,15 +25,15 @@ export const Contact = () => {
           developer, have a query, or simply want to connect.
         </div>
         <div>
-          <div className="flex justify-center gap-4 ">
-            {/* message icon */}
+          <div className="flex justify-center items-center  gap-4 ">
+            <TfiEmail className="w-6 h-6" onClick={handleCopyEmail} />
             ganbatgantulga247@gmail.com
-            {/* copy button */}
+            <FiCopy className="w-6 h-6" />
           </div>
           <div className="flex justify-center gap-4">
-            {/* phone icon */}
+            <FiPhone className="w-6 h-6" />
             +976 95168240
-            {/* copy button */}
+            <FiCopy className="w-6 h-6" onClick={handleCopyPhone} />
           </div>
         </div>
         <div className="flex flex-col gap-4 text-gray-600">
